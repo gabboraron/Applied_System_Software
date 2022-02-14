@@ -51,6 +51,8 @@ soft dev activities:
 
 waterfall model to vmodel
 
+## concept proposal of a *New text editor software system*
+[concept_proposal.doc](https://github.com/gabboraron/Applied_System_Software/blob/main/concept_proposal.doc)
 
 
 
