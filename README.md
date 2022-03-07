@@ -172,3 +172,59 @@ management questions:
 - the specification is difficult to test in a meaningful way
 - assessing the impact of specification changes is hard to do
 
+## User Interface Analysis and Design
+*ex: how MS Word communicate with MS Excel*
+
+text based interface simplifes the interaction; easyer to teach
+
+### user interface development - spiral process
+- Interface analysis (user, task, and environment analysis)
+  - Focuses on the profile of the users 
+  - Concentrates on users, tasks
+  - Studies different models of system function
+- Interface design: set of interface objects and actions
+- Interface construction begins with a prototype that enables usage scenarios
+- Interface validation
+
+based on user:
+- Define interaction modes
+- The user shall be able to perform the same action via keyboard, mouse, voice recognition
+- Allow user interaction to be interruptible and "undo"able
+- allow the interaction to be customized
+- Hide technical internals from the casual user
+- Design for direct interaction with objects that appear on the screen
+
+Reduce the User's Memory:
+- Reduce demand on short-term memory
+- Establish meaningful defaults
+- Define shortcuts that are intuitive
+- The visual layout of the interface should be based on a real world metaphor
+- Disclose information in a progressive fashion
+
+Make the Interface Consistent:
+- The interface should present and acquire information in a consistent fashion
+- Allow the user to put the current task into a meaningful context
+  - able to communicate with the software; 
+- Maintain consistency across a family of applications *MS Office - Word - Excel, PowerPoint, etc in one line*
+- If past interactive models have created user expectations, do not make changes unless there is a compelling reason to do so!
+
+Models:
+- User profile model – Established by a human or software engineer
+- Design model – Created by a software engineer
+- Implementation model – Created by the software implementers
+- User's mental model – Developed by the user when interacting with the application
+
+Analysis: if the interface fulfill the enviroments
+- The users who will interact with the system through the interface
+- The tasks that end users must perform to do their work
+- The content that is presented as part of the interface
+- The work environment in which these tasks will be conducted
+
+user interface information can be obtained from
+- User interviews with the end users
+- Sales input from the sales people who interact with customers
+- Marketing input based on a market analysis to understand how different population segments might use the software
+- Support input from the support staff who are aware of what works and what doesn't
+
+Work Environment: different UI on Win/Mac/ubuntu/android/ios
+
