@@ -230,4 +230,49 @@ Work Environment: different UI on Win/Mac/ubuntu/android/ios
 
 [10 Usability Heuristics for User Interface Design](https://www.nngroup.com/articles/ten-usability-heuristics/)
 
+## Security
+![increasing security threats](https://www.iacpcybercenter.org/wp-content/uploads/2015/04/deloitte-nascio-fig29.png)
 
+http://www.ganssle.com/
+
+Security vulnerabilites are to be cosdered bugs, the same way as a functional bug, and tracked in the same manner.
+
+Factor some time into the project plan for security.
+Consider security as added value in an application.
+
+![software security tollgates in the sdlc](https://image.slideserve.com/396380/slide10-l.jpg)
+
+### application security risk categorization
+- more security for riskier applications
+- ensures that you work the most critical issues first
+- scales to houndreds or thousands off applications
+
+tools and methods:
+- security profiling tools gan gather facts  like size cpmplexity, security, mechanisms, dangerous calls
+- questionnaire to gather risk informations: asset value, available functions, users, environment, threats
+- risk based approach: evaluates likelihood and consequneces of successful attack
+
+start the generic set  of security requirements
+- include all sec mechanisms
+- address all common vulnerabilities
+- should address driving requirements
+
+tailoring examples
+- specify how atentication will work
+- detail the access control matrix
+- define the input validation rules
+- choose an error handling and loging approach
+
+***everybody tries to break your app!***
+
+assemble the tam:
+- experts in technology
+- secrity minded team
+- do a high level pentest
+- be sure to do root cause analysis on any flaws
+
+how much request our system could have?
+
+how do you control audit data?
+
+desig configuration data for audit 
