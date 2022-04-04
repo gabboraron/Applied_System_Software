@@ -276,3 +276,13 @@ how much request our system could have?
 how do you control audit data?
 
 desig configuration data for audit 
+
+## Develop Security Test Plan
+- SELECT and Establish the Test Target Clearly
+- Select Test Environment  
+- Define Test Scope  
+- Determine Test Restrictions
+- Determine Test Window Details  
+- Obtain Access Credentials  
+- Obtain Stakeholder Approval  
+-  
